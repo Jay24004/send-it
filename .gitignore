@@ -1,0 +1,70 @@
+# ==============================================================================
+# SendIt - Comprehensive .gitignore for .NET 10 / WPF / C#
+# ==============================================================================
+
+# Build results & Intermediate files
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]uild/
+artifacts/
+
+# Visual Studio & IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.userprefs
+*.rsuser
+
+# WPF Temporary Files
+*_wpftmp.csproj
+Generated\ Files/
+
+# Test Results & Code Coverage
+[Tt]est[Rr]esults/
+[Bb]uild[Ll]og.*
+TestResult.xml
+coverage/
+*.coverage
+*.coveragexml
+
+# Temporary & Lock files
+*.tmp
+*.temp
+*.log
+*.old
+*_old.*
+*_locked.*
+*_prev.*
+
+# Agent & Teamwork Scratch Directories
+.agents/teamwork/
+.agents/tmp/
+
+# OS-specific artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# User / Environment Secrets & Configs
+.env
+.env.*
+!.env.example
+*.local.json
+
+# Local App Runtime Storage & Databases
+*.db-shm
+*.db-wal

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SendIt.App/SendIt.App.csproj" />
+  <Project Path="SendIt.Core/SendIt.Core.csproj" />
+  <Project Path="SendIt.Tests/SendIt.Tests.csproj" />
+</Solution>
